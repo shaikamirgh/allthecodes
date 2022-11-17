@@ -11,7 +11,7 @@ hands = mp_hands.Hands(static_image_mode=True, max_num_hands=2, min_detection_co
 # Last step is to set up the drawing function of hands landmarks on the image
 mp_drawing = mp.solutions.drawing_utils
 # Reading the sample image on which we will perform the detection
-sample_img = cv2.imread('hands-landmarks-detection-mediapipe-main\media\sample.jpg')
+sample_img = cv2.imread('media\sample6.jpg')
 
 '''
 # Here we are specifing the size of the figure i.e. 10 -height; 10- width.
